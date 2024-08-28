@@ -37,6 +37,9 @@
                         'card-2': '#EFDA6E',
                         'card-3': '#A4DAC3',
                         'card-4': '#77AAEA',
+                        'port-btn': '#ABEF5F80',
+                        'card-ph': '#737373',
+
                     }
                 }
             }
@@ -186,14 +189,15 @@
 
 
 
-            <div class="grid grid-cols-4 gap-5 px-40">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-40">
                 <!-- Card-1 -->
                 <div class="card bg-card-1 mt-8 mb-8 ">
                     <div class="card-body">
                         <img class="w-20 h-20" src="assets/concept.png" alt="">
 
                         <h2 class="card-title text-xl font-extrabold">Concept</h2>
-                        <p class="text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p class="text-base font-medium">The barn house captivates with its blend of rustic charm and
+                            modern.</p>
 
                     </div>
                 </div>
@@ -202,7 +206,7 @@
                 <!-- Card-2 -->
                 <div class="card bg-card-2 mt-8 mb-8">
                     <div class="card-body">
-                       <img class="w-20 h-20" src="assets/flow-chart.png" alt="">
+                        <img class="w-20 h-20" src="assets/flow-chart.png" alt="">
 
                         <h2 class="card-title text-xl font-extrabold">Design Process</h2>
                         <p>The barn house captivates with its blend of rustic charm and modern.</p>
@@ -223,7 +227,7 @@
                 <!-- Card-4 -->
                 <div class="card bg-card-4 mt-8 mb-8">
                     <div class="card-body">
-                    <img class="w-20 h-20" src="assets/budget-planning.png" alt="">
+                        <img class="w-20 h-20" src="assets/budget-planning.png" alt="">
                         <h2 class="card-title text-xl font-extrabold">Budget Planning</h2>
                         <p>The barn house captivates with its blend of rustic charm and modern.</p>
 
@@ -239,7 +243,79 @@
         </section>
 
         <!-- Portfolio Section -->
-        <section>
+        <section class="mt-8">
+            <div>
+
+                <div class="flex justify-center items-center mb-8 ">
+
+                    <button class="btn btn-larger rounded-full bg-lime-200 mt-8 text-base font-extrabold">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+                        Explore our Latest works</button>
+                </div>
+                <div class="text-center mt-8">
+                    <h1 class="text-5xl font-bold mb-5">Our Latest Portfolio</h1>
+                    <p class="text-base font-medium text-gray-600 mb-6">The barn house captivates with its blend of
+                        rustic
+                        charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
+                </div>
+
+            </div>
+
+
+            <div class="grid grid-cols-4 p-5 bg-slate-100">
+                <!-- Span Card-1 -->
+                <div class="flex  mt-8 col-start-1 col-end-4 m-5 bg-white p-4 rounded-xl">
+
+                    <div class=" flex-auto">
+                        <img src="assets/img1.png" alt="">
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-extrabold">Commercial</h2>
+                        <p class="text-base font-medium text-card-ph">The barn house captivates with its blend of rustic
+                            charm and modern. The barn house
+                            captivates with its blend of rustic charm and modern .</p>
+                        <a class="text-xl font-extrabold" href="#">View Details</a>
+                    </div>
+
+                </div>
+                <!-- Span Card-2 -->
+                <div class="m-5 bg-white p-4 rounded-xl">
+                    <img src="assets/img2.png" alt="">
+                </div>
+
+                <!-- Span Card-3 -->
+                <div class="m-5 bg-white p-4 rounded-xl ">
+                    <img src="assets/img3.png" alt="">
+                </div>
+
+                <!-- Span Card-4 -->
+                <div class="flex justify-between  mt-8 m-5 col-start-2 col-end-4 bg-white p-4 rounded-xl">
+
+                    <div class=" flex-auto items-center">
+                        <img src="assets/img4.png" alt="">
+                    </div>
+                    <div >
+                        <h2 class="text-2xl font-extrabold mb-3">Commercial</h2>
+                        <p class="text-base font-medium text-card-ph mb-5">The barn house captivates with its blend of rustic
+                            charm and modern. </p>
+                        <a class="text-xl font-extrabold" href="#">View Details</a>
+                    </div>
+
+                </div>
+
+                <!-- Span Card-5 -->
+                <div class="m-5 bg-white p-4 rounded-xl">
+                    <img src="assets/img5.png" alt="">
+                </div>
+
+
+
+            </div>
+
 
         </section>
 
